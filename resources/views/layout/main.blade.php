@@ -22,9 +22,7 @@
       <a class="nav-item nav-link active" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="{{ url('/features') }}">Features</a>
       <a class="nav-item nav-link" href="{{ url('/pricing') }}">Pricing</a>      
-      <a class="nav-item nav-link" href="{{ url('/reservasi') }}">Daftar Reservasi</a>
-      <a class="nav-item nav-link" href="{{ url('/karyawan') }}">Employee</a>
-      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <a class="nav-item nav-link" href="{{ url('/reservasi') }}">Asset</a>            
     </div>
   </div>
   </div>
