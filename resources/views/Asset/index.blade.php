@@ -14,20 +14,21 @@
                 <thead>
                     <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Nama</th>
-                    <th scope="col">Jumlah Tamu</th>
-                    <th scope="col">Lokasi</th>
-                    <th scope="col">Aksi</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Code</th>
+                    <th scope="col">Vendor</th>
+                    
+                    <th scope="col">Action</th>
 
                     </tr>
                 </thead>
                 <tbody>
-    @foreach($reservasi as $rsv)
+    @foreach($asset as $ast)
         <tr>
             <th scope="row">{{$loop->iteration}}</th>
-            <td>{{$rsv->nama}}</td>
-            <td>{{$rsv->tamu}}</td>
-            <td>{{$rsv->lokasi}}</td>
+            <td>{{$ast->name}}</td>
+            <td>{{$ast->code}}</td>
+            <td>{{$ast->vendor}}</td>
           
             <td>
                 <a href="" class="badge badge-success">edit</a>
