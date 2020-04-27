@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\AssetModel;
 class AssetController extends Controller
 {
      /**
@@ -13,7 +13,7 @@ class AssetController extends Controller
      */
     public function index()
     {
-        $asset = Asset::all();
+        $asset = AssetModel::all();
         return view('Asset.index', ['asset' => $asset]);
     }
 
